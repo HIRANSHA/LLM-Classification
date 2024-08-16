@@ -9,7 +9,7 @@ from src.utils import add_vectorDB,save_reference_data
 
 
 DB_path="./artifacts/vector_db"
-
+os.makedirs(os.path.dirname(DB_path),exist_ok=True)
 # Reference data info
 folder_path = "D:\\Code\\generative_AI\\medbrief_final\\data\\pre-defined-data2"
 reference_pdf_paths = glob.glob(os.path.join(folder_path, '**', '*.pdf'), recursive=True)
