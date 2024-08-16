@@ -1,0 +1,12 @@
+faiss-cpu==1.8.0.post1
+PyMuPDF==1.24.9
+docx2pdf==0.1.8
+langchain==0.2.12
+langchain-community==0.2.11
+numpy==1.26.4
+pandas==2.2.2
+regex==2024.7.24
+torch==2.3.1
+torchaudio==2.3.1
+torchvision==0.18.1
+transformers==4.43.4
