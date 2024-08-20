@@ -4,6 +4,7 @@
 
 This project is designed to classify documents (PDF and DOCX formats) into predefined classes using a combination of a FAISS vector database for similarity matching and the LLAMA2 model for classification. The system leverages advanced language models to accurately classify documents into their respective categories.
 
+
 ## Features
 
 - **Document Classification:** Classifies documents into predefined categories using LLAMA2 and FAISS.
@@ -89,3 +90,21 @@ This project is designed to classify documents (PDF and DOCX formats) into prede
 
 ### 7. Result
 - The LLM will classify the query document into one of the predefined categories and provide a brief description of the topic
+
+## Use Cases
+
+### a. Legal Document Classification
+
+- **Scenario:** A law firm receives hundreds of legal documents, contracts, and case files every day.
+- **Solution:** The system can automatically classify these documents into categories such as "Contracts," "Court Filings," "Client Correspondence," and "Legal Research," saving the firm time and reducing manual errors.
+
+### b. Medical Record Organization
+
+- **Scenario:** A hospital needs to organize a large volume of patient records, including medical histories, diagnostic reports, and prescriptions.
+- **Solution:** The system can classify documents into sections like "Medical History," "Lab Results," "Prescriptions," and "Imaging Reports," streamlining access to critical patient information.
+
+### c. Insurance Claim Processing
+
+- **Scenario:** An insurance company processes thousands of claims and associated documents, including forms, receipts, and correspondence.
+- **Solution:** The system can automatically categorize documents into predefined classes such as "Claim Forms," "Receipts," "Correspondence," and "Supporting Documents," facilitating faster and more accurate claim processing.
+
