@@ -30,3 +30,40 @@ This project is designed to classify documents (PDF and DOCX formats) into prede
 - Run the following command to download the LLAMA2 7B model:
   ```bash
   ollama run llama2:7b
+
+- Once the model is downloaded, you can close the Command Prompt.
+
+
+```markdown
+### 4. Set Up Local Environment using Conda
+
+- **Download the Anaconda Installer:**
+  - Go to the [Anaconda Distribution page](https://www.anaconda.com/products/distribution).
+  - Download the Windows installer for Python 3.x (64-bit or 32-bit depending on your system).
+  - Double-click the downloaded `.exe` file to start the installer.
+  - Follow the on-screen instructions.
+
+- **Create and set up a Conda environment:**
+  - Open a new Command Prompt and navigate to the directory where you want to set up the git and conda environment.
+  - Execute the following steps to fetch the data from GitHub and set up the Conda environment:
+    ```bash
+    git clone https://github.com/HIRANSHA/LLM-Classification.git
+    cd LLM-Classification
+    conda create -p venv python==3.10 -y
+    pip install -r requirements.txt
+    ```
+
+### 5. Copy Sample Data
+
+- Copy sample data into two folders named `pre-defined-data2` and `query_data`.
+  - `pre-defined-data2`: Contains reference data (data from different clinical sections).
+  - `query_data`: Contains data to classify.
+
+- Folder paths:
+  ```bash
+  ./artifacts/pre-defined-data2
+  ./artifacts/query_data
+  ```
+```
+
+
