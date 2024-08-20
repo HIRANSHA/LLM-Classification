@@ -65,4 +65,27 @@ This project is designed to classify documents (PDF and DOCX formats) into prede
   ```
 
 
+### 6. Generate Embeddings and Classify Documents
 
+- **To generate embeddings of predefined data and store them in the vector database:**
+  - Run the following command:
+    ```bash
+    python populatind_db.py
+    ```
+
+- **To classify a single document or each document provided in `./artifacts/query_data`:**
+  - Run the following command:
+    ```bash
+    python main.py
+    ```
+  - The results will be displayed in the Command Prompt.
+
+- **To classify each page and images within a document provided in `./artifacts/query_data`:**
+  - Run the following command:
+    ```bash
+    python main.py --pagewise
+    ```
+  - The results will be displayed in the Command Prompt.
+
+### 7. Result
+- The LLM will classify the query document into one of the predefined categories and provide a brief description of the topic
