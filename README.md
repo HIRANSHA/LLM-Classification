@@ -34,7 +34,6 @@ This project is designed to classify documents (PDF and DOCX formats) into prede
 - Once the model is downloaded, you can close the Command Prompt.
 
 
-```markdown
 ### 4. Set Up Local Environment using Conda
 
 - **Download the Anaconda Installer:**
@@ -64,6 +63,6 @@ This project is designed to classify documents (PDF and DOCX formats) into prede
   ./artifacts/pre-defined-data2
   ./artifacts/query_data
   ```
-```
+
 
 
