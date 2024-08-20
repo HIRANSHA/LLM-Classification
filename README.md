@@ -1,5 +1,5 @@
 # Document Classification using LLM and RAG
-
+![Project Diagram](artifacts/system_architecture.png)
 ## Overview
 
 This project is designed to classify documents (PDF and DOCX formats) into predefined classes using a combination of a FAISS vector database for similarity matching and the LLAMA2 model for classification. The system leverages advanced language models to accurately classify documents into their respective categories.
