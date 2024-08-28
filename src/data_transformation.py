@@ -20,6 +20,8 @@ class Data_Transformation:
         self.tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
         self.model = AutoModel.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
 
+
+    # extract document data
     def exract_txt(self,path):
         name = path.split('\\')[-1].split('.')[0]
         # class_name = name.split('-')[-1]
@@ -64,7 +66,7 @@ class Data_Transformation:
         except Exception as e:
             raise CustomException(e,sys)
         
-    
+    # extract pagewise data
     def exract_page_txt(self,path):
         name = path.split('\\')[-1].split('.')[0]
         # class_name = name.split('-')[-1]

@@ -83,7 +83,7 @@ if __name__=="__main__":
 
     #query pdf path
    
-    query_folder_path :str="D:\\Code\\generative_AI\\medbrief_final\\artifacts\\query_data"
+    query_folder_path :str="./artifacts/query_data"
 
     # Find both PDF and DOCX files
     query_pdf_docx_paths = [

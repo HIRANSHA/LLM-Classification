@@ -3,8 +3,9 @@ import pandas as pd
 from src.exception import CustomException
 from src.logger import logging
 from transformers import AutoTokenizer, AutoModel
-
 from src.data_transformation import Data_Transformation
+
+
 
 class DataIngestion:
     def __init__(self):
@@ -32,7 +33,7 @@ class DataIngestion:
             raise CustomException(e,sys)
         
     def read_query_document(self,query_pdf_paths)->list:
-        logging.info("Entered the data ingestion method to read query data")
+        logging.info("Entered the data ingestion method to read query document")
         try:
             
             os.makedirs(os.path.dirname(self.query_data_info_path),exist_ok=True)
@@ -51,7 +52,7 @@ class DataIngestion:
         
 
     def read_query_document_pages(self,query_pdf_path)->str:
-        logging.info("Entered the data ingestion method to read query data")
+        logging.info("Entered the data ingestion method to read query document pagewise")
         try:
             
             os.makedirs(os.path.dirname(self.query_data_info_path),exist_ok=True)
